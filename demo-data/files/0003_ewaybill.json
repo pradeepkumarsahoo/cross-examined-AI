@@ -1,0 +1,35 @@
+{
+  "ewbNo": 374626656206,
+  "ewayBillDate": "10/09/2026 10:15:00",
+  "validUpto": "13/09/2026 23:59:00",
+  "fromGstin": "27UMYCJ2170J1ZQ",
+  "toGstin": "33VTFFP3002I1Z2",
+  "docNo": "SI/26-27/69578",
+  "docType": "INV",
+  "totInvValue": 8028720.0,
+  "itemList": [
+    {
+      "hsnCode": "4818",
+      "quantity": 200,
+      "qtyUnit": "CTN",
+      "taxableAmount": 144000.0
+    },
+    {
+      "hsnCode": "2103",
+      "quantity": 1000,
+      "qtyUnit": "CTN",
+      "taxableAmount": 1260000.0
+    },
+    {
+      "hsnCode": "0405",
+      "quantity": 1000,
+      "qtyUnit": "CTN",
+      "taxableAmount": 5400000.0
+    }
+  ],
+  "VehiclListDetails": [
+    {
+      "vehicleNo": "KL04YC8262"
+    }
+  ]
+}

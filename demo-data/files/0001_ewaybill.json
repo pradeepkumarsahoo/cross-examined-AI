@@ -1,0 +1,29 @@
+{
+  "ewbNo": 894447218737,
+  "ewayBillDate": "06/09/2026 10:15:00",
+  "validUpto": "09/09/2026 23:59:00",
+  "fromGstin": "29BRTFZ8365S1ZF",
+  "toGstin": "33VTFFP3002I1Z2",
+  "docNo": "TI61707",
+  "docType": "INV",
+  "totInvValue": 1254750.0,
+  "itemList": [
+    {
+      "hsnCode": "1512",
+      "quantity": 250,
+      "qtyUnit": "CTN",
+      "taxableAmount": 420000.0
+    },
+    {
+      "hsnCode": "0902",
+      "quantity": 250,
+      "qtyUnit": "CTN",
+      "taxableAmount": 775000.0
+    }
+  ],
+  "VehiclListDetails": [
+    {
+      "vehicleNo": "KA83CV2964"
+    }
+  ]
+}

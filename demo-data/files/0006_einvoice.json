@@ -1,0 +1,58 @@
+{
+  "Version": "1.1",
+  "TranDtls": {
+    "TaxSch": "GST",
+    "SupTyp": "B2B"
+  },
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "INV3416",
+    "Dt": "11/09/2026"
+  },
+  "SellerDtls": {
+    "Gstin": "36HKRPO3642J1ZG",
+    "LglNm": "Tungabhadra Detergents Ltd"
+  },
+  "BuyerDtls": {
+    "Gstin": "33VTFFP3002I1Z2",
+    "LglNm": "Kaveri Distributors Pvt Ltd (fictional)"
+  },
+  "RefDtls": {
+    "PoRef": "PO-40006"
+  },
+  "ItemList": [
+    {
+      "SlNo": "1",
+      "PrdCd": "SKU-1001",
+      "PrdDesc": "Herbal Shampoo 180ml",
+      "HsnCd": "3305",
+      "Qty": 120,
+      "Unit": "CTN",
+      "UnitPrice": 450.0,
+      "AssAmt": 54000.0,
+      "GstRt": 18
+    },
+    {
+      "SlNo": "2",
+      "PrdCd": "SKU-1201",
+      "PrdDesc": "Mint Toothpaste 150g",
+      "HsnCd": "3306",
+      "Qty": 100,
+      "Unit": "CTN",
+      "UnitPrice": 940.0,
+      "AssAmt": 94000.0,
+      "GstRt": 18
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 148000.0,
+    "CgstVal": 0,
+    "SgstVal": 0,
+    "IgstVal": 26640.0,
+    "TotInvVal": 174640.0
+  },
+  "EwbDtls": {
+    "EwbNo": "139730374907",
+    "VehNo": "TN40UJ9701"
+  }
+}

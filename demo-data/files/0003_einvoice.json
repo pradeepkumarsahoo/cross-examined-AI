@@ -1,0 +1,69 @@
+{
+  "Version": "1.1",
+  "TranDtls": {
+    "TaxSch": "GST",
+    "SupTyp": "B2B"
+  },
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "SI/26-27/69578",
+    "Dt": "10/09/2026"
+  },
+  "SellerDtls": {
+    "Gstin": "27UMYCJ2170J1ZQ",
+    "LglNm": "Deccan Hygiene Industries"
+  },
+  "BuyerDtls": {
+    "Gstin": "33VTFFP3002I1Z2",
+    "LglNm": "Kaveri Distributors Pvt Ltd (fictional)"
+  },
+  "RefDtls": {
+    "PoRef": "PO-40003"
+  },
+  "ItemList": [
+    {
+      "SlNo": "1",
+      "PrdCd": "SKU-3001",
+      "PrdDesc": "Paper Napkins 100s",
+      "HsnCd": "4818",
+      "Qty": 200,
+      "Unit": "CTN",
+      "UnitPrice": 720.0,
+      "AssAmt": 144000.0,
+      "GstRt": 18
+    },
+    {
+      "SlNo": "2",
+      "PrdCd": "SKU-2401",
+      "PrdDesc": "Tomato Ketchup 500g",
+      "HsnCd": "2103",
+      "Qty": 1000,
+      "Unit": "CTN",
+      "UnitPrice": 1260.0,
+      "AssAmt": 1260000.0,
+      "GstRt": 18
+    },
+    {
+      "SlNo": "3",
+      "PrdCd": "SKU-2501",
+      "PrdDesc": "Pure Ghee 500ml",
+      "HsnCd": "0405",
+      "Qty": 1000,
+      "Unit": "CTN",
+      "UnitPrice": 5400.0,
+      "AssAmt": 5400000.0,
+      "GstRt": 18
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 6804000.0,
+    "CgstVal": 0,
+    "SgstVal": 0,
+    "IgstVal": 1224720.0,
+    "TotInvVal": 8028720.0
+  },
+  "EwbDtls": {
+    "EwbNo": "374626656206",
+    "VehNo": "KL04YC8262"
+  }
+}

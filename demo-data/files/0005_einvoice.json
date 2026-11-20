@@ -1,0 +1,47 @@
+{
+  "Version": "1.1",
+  "TranDtls": {
+    "TaxSch": "GST",
+    "SupTyp": "B2B"
+  },
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "TI10491",
+    "Dt": "14/09/2026"
+  },
+  "SellerDtls": {
+    "Gstin": "29JRXFJ9862L1ZT",
+    "LglNm": "Kaveri Valley Organics"
+  },
+  "BuyerDtls": {
+    "Gstin": "33VTFFP3002I1Z2",
+    "LglNm": "Kaveri Distributors Pvt Ltd (fictional)"
+  },
+  "RefDtls": {
+    "PoRef": "PO-40005"
+  },
+  "ItemList": [
+    {
+      "SlNo": "1",
+      "PrdCd": "SKU-1001",
+      "PrdDesc": "Herbal Shampoo 180ml",
+      "HsnCd": "3305",
+      "Qty": 80,
+      "Unit": "CTN",
+      "UnitPrice": 450.0,
+      "AssAmt": 36000.0,
+      "GstRt": 18
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 36000.0,
+    "CgstVal": 0,
+    "SgstVal": 0,
+    "IgstVal": 6480.0,
+    "TotInvVal": 42480.0
+  },
+  "EwbDtls": {
+    "EwbNo": "300524316045",
+    "VehNo": "KL66SP6358"
+  }
+}

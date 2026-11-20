@@ -12,6 +12,10 @@ target-version = "py312"
 select = ["E", "F", "I", "B", "UP"]
 ignore = ["E501", "B008"]
 
+[tool.ruff.lint.isort]
+# ladder/ scripts import each other as plain local modules (run as `python ladder/step2_...py`).
+known-local-folder = ["step1_one_agent"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"

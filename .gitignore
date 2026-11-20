@@ -1,0 +1,34 @@
+# Secrets
+.env
+key.txt
+infra/terraform/terraform.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated data, storage and reports
+data/
+eval_report.md
+celerybeat-schedule*
+
+# Web
+web/node_modules/
+web/dist/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/.terraform.lock.hcl
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

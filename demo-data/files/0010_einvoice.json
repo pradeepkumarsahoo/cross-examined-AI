@@ -1,0 +1,47 @@
+{
+  "Version": "1.1",
+  "TranDtls": {
+    "TaxSch": "GST",
+    "SupTyp": "B2B"
+  },
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "SI/26-27/14044",
+    "Dt": "24/09/2026"
+  },
+  "SellerDtls": {
+    "Gstin": "36HKRPO3642J1ZG",
+    "LglNm": "Tungabhadra Detergents Ltd"
+  },
+  "BuyerDtls": {
+    "Gstin": "33VTFFP3002I1Z2",
+    "LglNm": "Kaveri Distributors Pvt Ltd (fictional)"
+  },
+  "RefDtls": {
+    "PoRef": "PO-40010"
+  },
+  "ItemList": [
+    {
+      "SlNo": "1",
+      "PrdCd": "SKU-1101",
+      "PrdDesc": "Neem Bath Soap 100g x4",
+      "HsnCd": "3401",
+      "Qty": 100,
+      "Unit": "CTN",
+      "UnitPrice": 780.0,
+      "AssAmt": 78000.0,
+      "GstRt": 18
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 78000.0,
+    "CgstVal": 0,
+    "SgstVal": 0,
+    "IgstVal": 14040.0,
+    "TotInvVal": 92040.0
+  },
+  "EwbDtls": {
+    "EwbNo": "394144262876",
+    "VehNo": "KL19KI5987"
+  }
+}

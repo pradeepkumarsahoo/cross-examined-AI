@@ -1,0 +1,9 @@
+# Demo papers must stay byte-for-byte: CRLF conversion breaks PDF xref offsets and file hashes.
+demo-data/** binary
+*.pdf binary
+*.xlsx binary
+*.jpg binary
+*.png binary
+
+# Shell scripts run inside Linux containers.
+*.sh text eol=lf

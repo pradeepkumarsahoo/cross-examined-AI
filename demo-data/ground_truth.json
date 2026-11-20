@@ -1,0 +1,1859 @@
+{
+  "files": [
+    {
+      "file": "0001_bundle_scan.pdf",
+      "format": "bundle_scan",
+      "po_number": "PO-40001",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "29BRTFZ8365S1ZF",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI61707",
+            "invoice_date": "2026-09-06",
+            "po_number": "PO-40001",
+            "eway_bill_number": "894447218737",
+            "vehicle_number": "KA83 CV 2964",
+            "subtotal": 1195000.0,
+            "gst_rate": 5,
+            "tax_amount": 59750.0,
+            "total": 1254750.0,
+            "supplier_name": "Palar Edible Oils Ltd",
+            "lines": [
+              {
+                "sku": "SKU-2301",
+                "description": "Sunflower Oil 1L",
+                "hsn": "1512",
+                "qty_cartons": 250,
+                "price_per_carton": 1680.0,
+                "amount": 420000.0
+              },
+              {
+                "sku": "SKU-2201",
+                "description": "Assam Tea 500g",
+                "hsn": "0902",
+                "qty_cartons": 250,
+                "price_per_carton": 3100.0,
+                "amount": 775000.0
+              }
+            ]
+          }
+        },
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            2,
+            2
+          ],
+          "fields": {
+            "supplier_name": "Palar Edible Oils Ltd",
+            "supplier_gstin": "29BRTFZ8365S1ZF",
+            "packing_list_number": "PL-30821",
+            "invoice_number": "TI61707",
+            "po_number": "PO-40001",
+            "lines": [
+              {
+                "sku": "SKU-2301",
+                "qty_cartons": 250,
+                "batch_number": "B35H282",
+                "gross_weight_kg": 2875.0
+              },
+              {
+                "sku": "SKU-2201",
+                "qty_cartons": 250,
+                "batch_number": "B91F188",
+                "gross_weight_kg": 3200.0
+              }
+            ],
+            "total_cartons": 500,
+            "total_weight_kg": 6075.0
+          }
+        },
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            3,
+            3
+          ],
+          "fields": {
+            "transporter_name": "Velan Logistics",
+            "lr_number": "LR233209",
+            "lr_date": "2026-09-06",
+            "vehicle_number": "KA83 CV 2964",
+            "consignor_gstin": "29BRTFZ8365S1ZF",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI61707",
+            "packages": 488,
+            "weight_kg": 5929.2
+          }
+        }
+      ]
+    },
+    {
+      "file": "0001_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40001",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "894447218737",
+            "generated_date": "2026-09-06",
+            "valid_until": "2026-09-09",
+            "supplier_gstin": "29BRTFZ8365S1ZF",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI61707",
+            "vehicle_number": "KA83 CV 2964",
+            "items": [
+              {
+                "hsn": "1512",
+                "qty_cartons": 250,
+                "taxable_value": 420000.0
+              },
+              {
+                "hsn": "0902",
+                "qty_cartons": 250,
+                "taxable_value": 775000.0
+              }
+            ],
+            "total_value": 1254750.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0001_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40001",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Palar Edible Oils Ltd - Quality Assurance Lab",
+            "supplier_gstin": "29BRTFZ8365S1ZF",
+            "certificate_number": "COA-719511",
+            "sku": "SKU-2301",
+            "batch_number": "B35H282",
+            "manufacture_date": "2026-08-27",
+            "expiry_date": "2027-09-09",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0001_coa_2.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40001",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Palar Edible Oils Ltd - Quality Assurance Lab",
+            "supplier_gstin": "29BRTFZ8365S1ZF",
+            "certificate_number": "COA-945678",
+            "sku": "SKU-2201",
+            "batch_number": "B91F188",
+            "manufacture_date": "2026-07-30",
+            "expiry_date": "2028-03-02",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0002_bundle_scan.pdf",
+      "format": "bundle_scan",
+      "po_number": "PO-40002",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/56132",
+            "invoice_date": "2026-09-10",
+            "po_number": "PO-40002",
+            "eway_bill_number": "742795434833",
+            "vehicle_number": "KA28 JQ 4940",
+            "subtotal": 666677.0,
+            "gst_rate": 5,
+            "tax_amount": 33333.85,
+            "total": 700010.85,
+            "supplier_name": "Deccan Hygiene Industries",
+            "lines": [
+              {
+                "sku": "SKU-2301",
+                "description": "Sunflower Oil 1L",
+                "hsn": "1512",
+                "qty_cartons": 200,
+                "price_per_carton": 1680.0,
+                "amount": 336000.0
+              },
+              {
+                "sku": "SKU-2201",
+                "description": "Assam Tea 500g",
+                "hsn": "0902",
+                "qty_cartons": 100,
+                "price_per_carton": 3306.77,
+                "amount": 330677.0
+              }
+            ]
+          }
+        },
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            2,
+            2
+          ],
+          "fields": {
+            "supplier_name": "Deccan Hygiene Industries",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "packing_list_number": "PL-29901",
+            "invoice_number": "SI/26-27/56132",
+            "po_number": "PO-40002",
+            "lines": [
+              {
+                "sku": "SKU-2301",
+                "qty_cartons": 200,
+                "batch_number": "B43J529",
+                "gross_weight_kg": 2300.0
+              },
+              {
+                "sku": "SKU-2201",
+                "qty_cartons": 100,
+                "batch_number": "B17F569",
+                "gross_weight_kg": 1280.0
+              }
+            ],
+            "total_cartons": 300,
+            "total_weight_kg": 3580.0
+          }
+        },
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            3,
+            3
+          ],
+          "fields": {
+            "transporter_name": "Sri Murugan Roadways",
+            "lr_number": "LR561504",
+            "lr_date": "2026-09-10",
+            "vehicle_number": "KA28 JQ 4940",
+            "consignor_gstin": "27UMYCJ2170J1ZQ",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/56132",
+            "packages": 300,
+            "weight_kg": 3580.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0002_ewaybill.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40002",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "742795434833",
+            "generated_date": "2026-09-10",
+            "valid_until": "2026-09-13",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/56132",
+            "vehicle_number": "KA28 JQ 4940",
+            "items": [
+              {
+                "hsn": "1512",
+                "qty_cartons": 200,
+                "taxable_value": 336000.0
+              },
+              {
+                "hsn": "0902",
+                "qty_cartons": 100,
+                "taxable_value": 330677.0
+              }
+            ],
+            "total_value": 700010.85
+          }
+        }
+      ]
+    },
+    {
+      "file": "0002_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40002",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Deccan Hygiene Industries - Quality Assurance Lab",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "certificate_number": "COA-738115",
+            "sku": "SKU-2301",
+            "batch_number": "B43J529",
+            "manufacture_date": "2026-08-07",
+            "expiry_date": "2027-09-11",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0002_coa_2.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40002",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Deccan Hygiene Industries - Quality Assurance Lab",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "certificate_number": "COA-280718",
+            "sku": "SKU-2201",
+            "batch_number": "B17F569",
+            "manufacture_date": "2026-08-31",
+            "expiry_date": "2027-09-11",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_einvoice.json",
+      "format": "einvoice_json",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/69578",
+            "invoice_date": "2026-09-10",
+            "po_number": "PO-40003",
+            "eway_bill_number": "374626656206",
+            "vehicle_number": "KL04 YC 8262",
+            "subtotal": 6804000.0,
+            "gst_rate": 18,
+            "tax_amount": 1224720.0,
+            "total": 8028720.0,
+            "supplier_name": "Deccan Hygiene Industries",
+            "lines": [
+              {
+                "sku": "SKU-3001",
+                "description": "Paper Napkins 100s",
+                "hsn": "4818",
+                "qty_cartons": 200,
+                "price_per_carton": 720.0,
+                "amount": 144000.0
+              },
+              {
+                "sku": "SKU-2401",
+                "description": "Tomato Ketchup 500g",
+                "hsn": "2103",
+                "qty_cartons": 1000,
+                "price_per_carton": 1260.0,
+                "amount": 1260000.0
+              },
+              {
+                "sku": "SKU-2501",
+                "description": "Pure Ghee 500ml",
+                "hsn": "0405",
+                "qty_cartons": 1000,
+                "price_per_carton": 5400.0,
+                "amount": 5400000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_packing.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Deccan Hygiene Industries",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "packing_list_number": "PL-64609",
+            "invoice_number": "SI/26-27/69578",
+            "po_number": "PO-40003",
+            "lines": [
+              {
+                "sku": "SKU-3001",
+                "qty_cartons": 200,
+                "batch_number": "B88J720",
+                "gross_weight_kg": 1680.0
+              },
+              {
+                "sku": "SKU-2401",
+                "qty_cartons": 1000,
+                "batch_number": "B35E563",
+                "gross_weight_kg": 13400.0
+              },
+              {
+                "sku": "SKU-2501",
+                "qty_cartons": 1000,
+                "batch_number": "B78H619",
+                "gross_weight_kg": 10800.0
+              }
+            ],
+            "total_cartons": 2200,
+            "total_weight_kg": 25880.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_lr_photo.jpg",
+      "format": "photo",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Sri Murugan Roadways",
+            "lr_number": "LR511423",
+            "lr_date": "2026-09-10",
+            "vehicle_number": "KL04 YC 8262",
+            "consignor_gstin": "27UMYCJ2170J1ZQ",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/69578",
+            "packages": 2200,
+            "weight_kg": 25880.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "374626656206",
+            "generated_date": "2026-09-10",
+            "valid_until": "2026-09-13",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/69578",
+            "vehicle_number": "KL04 YC 8262",
+            "items": [
+              {
+                "hsn": "4818",
+                "qty_cartons": 200,
+                "taxable_value": 144000.0
+              },
+              {
+                "hsn": "2103",
+                "qty_cartons": 1000,
+                "taxable_value": 1260000.0
+              },
+              {
+                "hsn": "0405",
+                "qty_cartons": 1000,
+                "taxable_value": 5400000.0
+              }
+            ],
+            "total_value": 8028720.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Deccan Hygiene Industries - Quality Assurance Lab",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "certificate_number": "COA-176070",
+            "sku": "SKU-2401",
+            "batch_number": "B35E563",
+            "manufacture_date": "2026-08-17",
+            "expiry_date": "2028-03-05",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0003_coa_2.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40003",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Deccan Hygiene Industries - Quality Assurance Lab",
+            "supplier_gstin": "27UMYCJ2170J1ZQ",
+            "certificate_number": "COA-549145",
+            "sku": "SKU-2501",
+            "batch_number": "B78H619",
+            "manufacture_date": "2026-08-10",
+            "expiry_date": "2027-09-12",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_invoice.xlsx",
+      "format": "excel",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "32KZBPJ4555V1ZI",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV45299",
+            "invoice_date": "2026-09-09",
+            "po_number": "PO-40004",
+            "eway_bill_number": "502533572737",
+            "vehicle_number": "TN86 HF 8070",
+            "subtotal": 1524400.0,
+            "gst_rate": 18,
+            "tax_amount": 274392.0,
+            "total": 1798792.0,
+            "supplier_name": "Cauvery Foods Pvt Ltd",
+            "lines": [
+              {
+                "sku": "SKU-3002",
+                "description": "Aluminium Foil 9m",
+                "hsn": "7607",
+                "qty_cartons": 1000,
+                "price_per_carton": 1450.0,
+                "amount": 1450000.0
+              },
+              {
+                "sku": "SKU-1002",
+                "description": "Anti-Dandruff Shampoo 340ml",
+                "hsn": "3305",
+                "qty_cartons": 120,
+                "price_per_carton": 620.0,
+                "amount": 74400.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_packing.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Cauvery Foods Pvt Ltd",
+            "supplier_gstin": "32KZBPJ4555V1ZI",
+            "packing_list_number": "PL-12370",
+            "invoice_number": "INV45299",
+            "po_number": "PO-40004",
+            "lines": [
+              {
+                "sku": "SKU-3002",
+                "qty_cartons": 1000,
+                "batch_number": "B61F531",
+                "gross_weight_kg": 6300.0
+              },
+              {
+                "sku": "SKU-1002",
+                "qty_cartons": 120,
+                "batch_number": "B55F194",
+                "gross_weight_kg": 1080.0
+              }
+            ],
+            "total_cartons": 1120,
+            "total_weight_kg": 7380.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_lr_photo.jpg",
+      "format": "photo",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Annamalai Transport Co",
+            "lr_number": "LR447600",
+            "lr_date": "2026-09-09",
+            "vehicle_number": "TN86 HF 8070",
+            "consignor_gstin": "32KZBPJ4555V1ZI",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV45299",
+            "packages": 1120,
+            "weight_kg": 7380.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_invoice_copy_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "32KZBPJ4555V1ZI",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV45299",
+            "invoice_date": "2026-09-09",
+            "po_number": "PO-40004",
+            "eway_bill_number": "502533572737",
+            "vehicle_number": "TN86 HF 8070",
+            "subtotal": 1524400.0,
+            "gst_rate": 18,
+            "tax_amount": 274392.0,
+            "total": 1798792.0,
+            "supplier_name": "Cauvery Foods Pvt Ltd",
+            "lines": [
+              {
+                "sku": "SKU-3002",
+                "description": "Aluminium Foil 9m",
+                "hsn": "7607",
+                "qty_cartons": 1000,
+                "price_per_carton": 1450.0,
+                "amount": 1450000.0
+              },
+              {
+                "sku": "SKU-1002",
+                "description": "Anti-Dandruff Shampoo 340ml",
+                "hsn": "3305",
+                "qty_cartons": 120,
+                "price_per_carton": 620.0,
+                "amount": 74400.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_ewaybill.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "502533572737",
+            "generated_date": "2026-09-09",
+            "valid_until": "2026-09-12",
+            "supplier_gstin": "32KZBPJ4555V1ZI",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV45299",
+            "vehicle_number": "TN86 HF 8070",
+            "items": [
+              {
+                "hsn": "7607",
+                "qty_cartons": 1000,
+                "taxable_value": 1450000.0
+              },
+              {
+                "hsn": "3305",
+                "qty_cartons": 120,
+                "taxable_value": 74400.0
+              }
+            ],
+            "total_value": 1798792.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0004_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40004",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Cauvery Foods Pvt Ltd - Quality Assurance Lab",
+            "supplier_gstin": "32KZBPJ4555V1ZI",
+            "certificate_number": "COA-409806",
+            "sku": "SKU-1002",
+            "batch_number": "B55F194",
+            "manufacture_date": "2026-08-14",
+            "expiry_date": "2028-08-31",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0005_einvoice.json",
+      "format": "einvoice_json",
+      "po_number": "PO-40005",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "29JRXFJ9862L1ZT",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10491",
+            "invoice_date": "2026-09-14",
+            "po_number": "PO-40005",
+            "eway_bill_number": "300524316045",
+            "vehicle_number": "KL66 SP 6358",
+            "subtotal": 36000.0,
+            "gst_rate": 18,
+            "tax_amount": 6480.0,
+            "total": 42480.0,
+            "supplier_name": "Kaveri Valley Organics",
+            "lines": [
+              {
+                "sku": "SKU-1001",
+                "description": "Herbal Shampoo 180ml",
+                "hsn": "3305",
+                "qty_cartons": 80,
+                "price_per_carton": 450.0,
+                "amount": 36000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0005_packing.xlsx",
+      "format": "excel",
+      "po_number": "PO-40005",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Kaveri Valley Organics",
+            "supplier_gstin": "29JRXFJ9862L1ZT",
+            "packing_list_number": "PL-20976",
+            "invoice_number": "TI10491",
+            "po_number": "PO-40005",
+            "lines": [
+              {
+                "sku": "SKU-1001",
+                "qty_cartons": 80,
+                "batch_number": "B45A918",
+                "gross_weight_kg": 760.0
+              }
+            ],
+            "total_cartons": 80,
+            "total_weight_kg": 760.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0005_lr_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40005",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Velan Logistics",
+            "lr_number": "LR169858",
+            "lr_date": "2026-09-14",
+            "vehicle_number": "KL66 SP 6358",
+            "consignor_gstin": "29JRXFJ9862L1ZT",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10491",
+            "packages": 80,
+            "weight_kg": 760.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0005_ewaybill.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40005",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "300524316045",
+            "generated_date": "2026-09-14",
+            "valid_until": "2026-09-17",
+            "supplier_gstin": "29JRXFJ9862L1ZT",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10491",
+            "vehicle_number": "KL66 SP 6358",
+            "items": [
+              {
+                "hsn": "3305",
+                "qty_cartons": 80,
+                "taxable_value": 36000.0
+              }
+            ],
+            "total_value": 42480.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_einvoice.json",
+      "format": "einvoice_json",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV3416",
+            "invoice_date": "2026-09-11",
+            "po_number": "PO-40006",
+            "eway_bill_number": "139730374907",
+            "vehicle_number": "TN40 UJ 9701",
+            "subtotal": 148000.0,
+            "gst_rate": 18,
+            "tax_amount": 26640.0,
+            "total": 174640.0,
+            "supplier_name": "Tungabhadra Detergents Ltd",
+            "lines": [
+              {
+                "sku": "SKU-1001",
+                "description": "Herbal Shampoo 180ml",
+                "hsn": "3305",
+                "qty_cartons": 120,
+                "price_per_carton": 450.0,
+                "amount": 54000.0
+              },
+              {
+                "sku": "SKU-1201",
+                "description": "Mint Toothpaste 150g",
+                "hsn": "3306",
+                "qty_cartons": 100,
+                "price_per_carton": 940.0,
+                "amount": 94000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_packing.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Tungabhadra Detergents Ltd",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "packing_list_number": "PL-77401",
+            "invoice_number": "INV3416",
+            "po_number": "PO-40006",
+            "lines": [
+              {
+                "sku": "SKU-1001",
+                "qty_cartons": 120,
+                "batch_number": "B47H612",
+                "gross_weight_kg": 1140.0
+              },
+              {
+                "sku": "SKU-1201",
+                "qty_cartons": 100,
+                "batch_number": "B44F922",
+                "gross_weight_kg": 1180.0
+              }
+            ],
+            "total_cartons": 220,
+            "total_weight_kg": 2320.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_lr_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Annamalai Transport Co",
+            "lr_number": "LR357613",
+            "lr_date": "2026-09-11",
+            "vehicle_number": "TN40 UJ 9701",
+            "consignor_gstin": "36HKRPO3642J1ZG",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV3416",
+            "packages": 220,
+            "weight_kg": 2320.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_ewaybill.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "139730374907",
+            "generated_date": "2026-09-11",
+            "valid_until": "2026-09-14",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV3416",
+            "vehicle_number": "TN40 UJ 9701",
+            "items": [
+              {
+                "hsn": "3305",
+                "qty_cartons": 120,
+                "taxable_value": 54000.0
+              },
+              {
+                "hsn": "3306",
+                "qty_cartons": 100,
+                "taxable_value": 94000.0
+              }
+            ],
+            "total_value": 174640.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Tungabhadra Detergents Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "certificate_number": "COA-568771",
+            "sku": "SKU-1001",
+            "batch_number": "B47H612",
+            "manufacture_date": "2026-08-03",
+            "expiry_date": "2027-01-10",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0006_coa_2.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40006",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Tungabhadra Detergents Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "certificate_number": "COA-958700",
+            "sku": "SKU-1201",
+            "batch_number": "B44F922",
+            "manufacture_date": "2026-08-29",
+            "expiry_date": "2028-09-01",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_invoice.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV36263",
+            "invoice_date": "2026-09-07",
+            "po_number": "PO-40007",
+            "eway_bill_number": "303836798297",
+            "vehicle_number": "KL95 IN 3674",
+            "subtotal": 1141200.0,
+            "gst_rate": 12,
+            "tax_amount": 136944.0,
+            "total": 1278144.0,
+            "supplier_name": "Kodagu Plantations Pvt Ltd",
+            "lines": [
+              {
+                "sku": "SKU-2501",
+                "description": "Pure Ghee 500ml",
+                "hsn": "0405",
+                "qty_cartons": 50,
+                "price_per_carton": 5400.0,
+                "amount": 270000.0
+              },
+              {
+                "sku": "SKU-3001",
+                "description": "Paper Napkins 100s",
+                "hsn": "4818",
+                "qty_cartons": 1000,
+                "price_per_carton": 720.0,
+                "amount": 720000.0
+              },
+              {
+                "sku": "SKU-2401",
+                "description": "Tomato Ketchup 500g",
+                "hsn": "2103",
+                "qty_cartons": 120,
+                "price_per_carton": 1260.0,
+                "amount": 151200.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_packing.xlsx",
+      "format": "excel",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Kodagu Plantations Pvt Ltd",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "packing_list_number": "PL-53113",
+            "invoice_number": "INV36263",
+            "po_number": "PO-40007",
+            "lines": [
+              {
+                "sku": "SKU-2501",
+                "qty_cartons": 50,
+                "batch_number": "B20G991",
+                "gross_weight_kg": 540.0
+              },
+              {
+                "sku": "SKU-3001",
+                "qty_cartons": 1000,
+                "batch_number": "B95E713",
+                "gross_weight_kg": 8400.0
+              },
+              {
+                "sku": "SKU-2401",
+                "qty_cartons": 120,
+                "batch_number": "B98E146",
+                "gross_weight_kg": 1608.0
+              }
+            ],
+            "total_cartons": 1170,
+            "total_weight_kg": 10548.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_lr_photo.jpg",
+      "format": "photo",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Southern Cargo Movers",
+            "lr_number": "LR356320",
+            "lr_date": "2026-09-07",
+            "vehicle_number": "KL95 IN 3674",
+            "consignor_gstin": "36EZLPK6155L1ZP",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV36263",
+            "packages": 1170,
+            "weight_kg": 10548.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "303836798297",
+            "generated_date": "2026-09-07",
+            "valid_until": "2026-09-10",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "INV36263",
+            "vehicle_number": "KL95 IN 3674",
+            "items": [
+              {
+                "hsn": "0405",
+                "qty_cartons": 50,
+                "taxable_value": 270000.0
+              },
+              {
+                "hsn": "4818",
+                "qty_cartons": 1000,
+                "taxable_value": 720000.0
+              },
+              {
+                "hsn": "2103",
+                "qty_cartons": 120,
+                "taxable_value": 151200.0
+              }
+            ],
+            "total_value": 1188673.92
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Kodagu Plantations Pvt Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "certificate_number": "COA-328448",
+            "sku": "SKU-2501",
+            "batch_number": "B20G991",
+            "manufacture_date": "2026-08-27",
+            "expiry_date": "2028-03-01",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0007_coa_2.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40007",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Kodagu Plantations Pvt Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "certificate_number": "COA-101120",
+            "sku": "SKU-2401",
+            "batch_number": "B98E146",
+            "manufacture_date": "2026-08-17",
+            "expiry_date": "2027-09-08",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0008_invoice.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40008",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "33HKJCH1122P1ZT",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/65774",
+            "invoice_date": "2026-09-15",
+            "po_number": "PO-40008",
+            "eway_bill_number": "459764977801",
+            "vehicle_number": "KA81 HC 9670",
+            "subtotal": 540000.0,
+            "gst_rate": 12,
+            "tax_amount": 64800.0,
+            "total": 604800.0,
+            "supplier_name": "Krishna Dairy Products LLP",
+            "lines": [
+              {
+                "sku": "SKU-2501",
+                "description": "Pure Ghee 500ml",
+                "hsn": "0405",
+                "qty_cartons": 100,
+                "price_per_carton": 5400.0,
+                "amount": 540000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0008_packing.xlsx",
+      "format": "excel",
+      "po_number": "PO-40008",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Krishna Dairy Products LLP",
+            "supplier_gstin": "33HKJCH1122P1ZT",
+            "packing_list_number": "PL-28972",
+            "invoice_number": "SI/26-27/65774",
+            "po_number": "PO-40008",
+            "lines": [
+              {
+                "sku": "SKU-2501",
+                "qty_cartons": 100,
+                "batch_number": "B94K498",
+                "gross_weight_kg": 1080.0
+              }
+            ],
+            "total_cartons": 100,
+            "total_weight_kg": 1080.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0008_lr_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40008",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Sri Murugan Roadways",
+            "lr_number": "LR964925",
+            "lr_date": "2026-09-15",
+            "vehicle_number": "KA81 HC 9670",
+            "consignor_gstin": "33HKJCH1122P1ZT",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/65774",
+            "packages": 100,
+            "weight_kg": 1080.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0008_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40008",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "459764977801",
+            "generated_date": "2026-09-15",
+            "valid_until": "2026-09-18",
+            "supplier_gstin": "33HKJCH1122P1ZT",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/65774",
+            "vehicle_number": "KA81 HC 9670",
+            "items": [
+              {
+                "hsn": "0405",
+                "qty_cartons": 100,
+                "taxable_value": 540000.0
+              }
+            ],
+            "total_value": 604800.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0008_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40008",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Krishna Dairy Products LLP - Quality Assurance Lab",
+            "supplier_gstin": "33HKJCH1122P1ZT",
+            "certificate_number": "COA-637899",
+            "sku": "SKU-2501",
+            "batch_number": "B94K498",
+            "manufacture_date": "2026-08-10",
+            "expiry_date": "2028-09-06",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0009_invoice.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40009",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10189",
+            "invoice_date": "2026-09-14",
+            "po_number": "PO-40009",
+            "eway_bill_number": "101132981883",
+            "vehicle_number": "KA72 BU 1308",
+            "subtotal": 3100000.0,
+            "gst_rate": 5,
+            "tax_amount": 155000.0,
+            "total": 3255000.0,
+            "supplier_name": "Kodagu Plantations Pvt Ltd",
+            "lines": [
+              {
+                "sku": "SKU-2201",
+                "description": "Assam Tea 500g",
+                "hsn": "0902",
+                "qty_cartons": 1000,
+                "price_per_carton": 3100.0,
+                "amount": 3100000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0009_packing.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40009",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Kodagu Plantations Pvt Ltd",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "packing_list_number": "PL-18657",
+            "invoice_number": "TI10189",
+            "po_number": "PO-40009",
+            "lines": [
+              {
+                "sku": "SKU-2201",
+                "qty_cartons": 1000,
+                "batch_number": "B97D601",
+                "gross_weight_kg": 12800.0
+              }
+            ],
+            "total_cartons": 1000,
+            "total_weight_kg": 12800.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0009_lr_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40009",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Annamalai Transport Co",
+            "lr_number": "LR364444",
+            "lr_date": "2026-09-14",
+            "vehicle_number": "KA72 BU 1308",
+            "consignor_gstin": "36EZLPK6155L1ZP",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10189",
+            "packages": 1000,
+            "weight_kg": 12800.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0009_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40009",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "101132981883",
+            "generated_date": "2026-09-14",
+            "valid_until": "2026-09-17",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "TI10189",
+            "vehicle_number": "KA72 BU 1308",
+            "items": [
+              {
+                "hsn": "0902",
+                "qty_cartons": 1000,
+                "taxable_value": 3100000.0
+              }
+            ],
+            "total_value": 3027150.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0009_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40009",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Kodagu Plantations Pvt Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36EZLPK6155L1ZP",
+            "certificate_number": "COA-987235",
+            "sku": "SKU-2201",
+            "batch_number": "B97D601",
+            "manufacture_date": "2026-08-10",
+            "expiry_date": "2027-09-16",
+            "result": "PASS"
+          }
+        }
+      ]
+    },
+    {
+      "file": "0010_einvoice.json",
+      "format": "einvoice_json",
+      "po_number": "PO-40010",
+      "segments": [
+        {
+          "doc_type": "invoice",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "buyer_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/14044",
+            "invoice_date": "2026-09-24",
+            "po_number": "PO-40010",
+            "eway_bill_number": "394144262876",
+            "vehicle_number": "KL19 KI 5987",
+            "subtotal": 78000.0,
+            "gst_rate": 18,
+            "tax_amount": 14040.0,
+            "total": 92040.0,
+            "supplier_name": "Tungabhadra Detergents Ltd",
+            "lines": [
+              {
+                "sku": "SKU-1101",
+                "description": "Neem Bath Soap 100g x4",
+                "hsn": "3401",
+                "qty_cartons": 100,
+                "price_per_carton": 780.0,
+                "amount": 78000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "0010_packing.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40010",
+      "segments": [
+        {
+          "doc_type": "packing_list",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "supplier_name": "Tungabhadra Detergents Ltd",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "packing_list_number": "PL-48123",
+            "invoice_number": "SI/26-27/14044",
+            "po_number": "PO-40010",
+            "lines": [
+              {
+                "sku": "SKU-1101",
+                "qty_cartons": 100,
+                "batch_number": "B11H162",
+                "gross_weight_kg": 1520.0
+              }
+            ],
+            "total_cartons": 100,
+            "total_weight_kg": 1520.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0010_lr_scan.pdf",
+      "format": "scan",
+      "po_number": "PO-40010",
+      "segments": [
+        {
+          "doc_type": "lorry_receipt",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "transporter_name": "Southern Cargo Movers",
+            "lr_number": "LR587234",
+            "lr_date": "2026-09-24",
+            "vehicle_number": "KL19 KI 5987",
+            "consignor_gstin": "36HKRPO3642J1ZG",
+            "consignee_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/14044",
+            "packages": 100,
+            "weight_kg": 1520.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0010_ewaybill.json",
+      "format": "eway_json",
+      "po_number": "PO-40010",
+      "segments": [
+        {
+          "doc_type": "eway_bill",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "eway_bill_number": "394144262876",
+            "generated_date": "2026-09-24",
+            "valid_until": "2026-09-27",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "recipient_gstin": "33VTFFP3002I1Z2",
+            "invoice_number": "SI/26-27/14044",
+            "vehicle_number": "KL19 KI 5987",
+            "items": [
+              {
+                "hsn": "3401",
+                "qty_cartons": 100,
+                "taxable_value": 78000.0
+              }
+            ],
+            "total_value": 92040.0
+          }
+        }
+      ]
+    },
+    {
+      "file": "0010_coa_1.pdf",
+      "format": "digital_pdf",
+      "po_number": "PO-40010",
+      "segments": [
+        {
+          "doc_type": "quality_certificate",
+          "pages": [
+            1,
+            1
+          ],
+          "fields": {
+            "lab_name": "Tungabhadra Detergents Ltd - Quality Assurance Lab",
+            "supplier_gstin": "36HKRPO3642J1ZG",
+            "certificate_number": "COA-904435",
+            "sku": "SKU-1101",
+            "batch_number": "B11H162",
+            "manufacture_date": "2026-08-31",
+            "expiry_date": "2028-03-18",
+            "result": "PASS"
+          }
+        }
+      ]
+    }
+  ],
+  "shipments": [
+    {
+      "po_number": "PO-40001",
+      "problems": [
+        "short_shipment"
+      ],
+      "expected_issue_codes": [
+        "LR_QTY_MISMATCH",
+        "SHORT_SHIPMENT"
+      ],
+      "invoice_total": 1254750.0
+    },
+    {
+      "po_number": "PO-40002",
+      "problems": [
+        "price_creep"
+      ],
+      "expected_issue_codes": [
+        "PRICE_MISMATCH"
+      ],
+      "invoice_total": 700010.85
+    },
+    {
+      "po_number": "PO-40003",
+      "problems": [
+        "tax_rate"
+      ],
+      "expected_issue_codes": [
+        "TAX_RATE_MISMATCH"
+      ],
+      "invoice_total": 8028720.0
+    },
+    {
+      "po_number": "PO-40004",
+      "problems": [
+        "duplicate_invoice"
+      ],
+      "expected_issue_codes": [
+        "POSSIBLE_DUPLICATE"
+      ],
+      "invoice_total": 1798792.0
+    },
+    {
+      "po_number": "PO-40005",
+      "problems": [
+        "missing_coa"
+      ],
+      "expected_issue_codes": [
+        "MISSING_COA"
+      ],
+      "invoice_total": 42480.0
+    },
+    {
+      "po_number": "PO-40006",
+      "problems": [
+        "short_expiry"
+      ],
+      "expected_issue_codes": [
+        "SHORT_SHELF_LIFE"
+      ],
+      "invoice_total": 174640.0
+    },
+    {
+      "po_number": "PO-40007",
+      "problems": [
+        "eway_value"
+      ],
+      "expected_issue_codes": [
+        "EWAY_VALUE_MISMATCH"
+      ],
+      "invoice_total": 1278144.0
+    },
+    {
+      "po_number": "PO-40008",
+      "problems": [
+        "injection"
+      ],
+      "expected_issue_codes": [
+        "SUSPICIOUS_CONTENT"
+      ],
+      "invoice_total": 604800.0
+    },
+    {
+      "po_number": "PO-40009",
+      "problems": [
+        "eway_value"
+      ],
+      "expected_issue_codes": [
+        "EWAY_VALUE_MISMATCH"
+      ],
+      "invoice_total": 3255000.0
+    },
+    {
+      "po_number": "PO-40010",
+      "problems": [],
+      "expected_issue_codes": [],
+      "invoice_total": 92040.0
+    }
+  ]
+}

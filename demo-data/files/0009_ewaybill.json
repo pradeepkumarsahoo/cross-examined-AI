@@ -1,0 +1,23 @@
+{
+  "ewbNo": 101132981883,
+  "ewayBillDate": "14/09/2026 10:15:00",
+  "validUpto": "17/09/2026 23:59:00",
+  "fromGstin": "36EZLPK6155L1ZP",
+  "toGstin": "33VTFFP3002I1Z2",
+  "docNo": "TI10189",
+  "docType": "INV",
+  "totInvValue": 3027150.0,
+  "itemList": [
+    {
+      "hsnCode": "0902",
+      "quantity": 1000,
+      "qtyUnit": "CTN",
+      "taxableAmount": 3100000.0
+    }
+  ],
+  "VehiclListDetails": [
+    {
+      "vehicleNo": "KA72BU1308"
+    }
+  ]
+}

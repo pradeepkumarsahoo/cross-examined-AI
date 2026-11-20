@@ -1,0 +1,809 @@
+{
+  "buyer_gstin": "33VTFFP3002I1Z2",
+  "suppliers": [
+    {
+      "code": "SUP-100",
+      "name": "Sahyadri Personal Care Pvt Ltd",
+      "gstin": "33IDQPR0592C1ZA",
+      "state_code": "33",
+      "email": "accounts@sahyadri-example.in",
+      "address": "112, Industrial Estate, Chennai",
+      "uses_einvoice": true,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-101",
+      "name": "Nilgiri Home Products LLP",
+      "gstin": "29KGOPS1269S1ZV",
+      "state_code": "29",
+      "email": "accounts@nilgiri-example.in",
+      "address": "150, Industrial Estate, Bengaluru",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-102",
+      "name": "Cauvery Foods Pvt Ltd",
+      "gstin": "32KZBPJ4555V1ZI",
+      "state_code": "32",
+      "email": "accounts@cauvery-example.in",
+      "address": "47, Industrial Estate, Kochi",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-103",
+      "name": "Malabar Consumer Goods Ltd",
+      "gstin": "36COEPR7564R1ZU",
+      "state_code": "36",
+      "email": "accounts@malabar-example.in",
+      "address": "110, Industrial Estate, Hyderabad",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-104",
+      "name": "Deccan Hygiene Industries",
+      "gstin": "27UMYCJ2170J1ZQ",
+      "state_code": "27",
+      "email": "accounts@deccan-example.in",
+      "address": "135, Industrial Estate, Pune",
+      "uses_einvoice": true,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-105",
+      "name": "Coromandel Snacks Pvt Ltd",
+      "gstin": "33MILFC1471P1ZD",
+      "state_code": "33",
+      "email": "accounts@coromandel-example.in",
+      "address": "108, Industrial Estate, Chennai",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-106",
+      "name": "Palar Edible Oils Ltd",
+      "gstin": "29BRTFZ8365S1ZF",
+      "state_code": "29",
+      "email": "accounts@palar-example.in",
+      "address": "117, Industrial Estate, Bengaluru",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-107",
+      "name": "Vaigai Beverages Pvt Ltd",
+      "gstin": "32BCHFV0735V1ZF",
+      "state_code": "32",
+      "email": "accounts@vaigai-example.in",
+      "address": "115, Industrial Estate, Kochi",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-108",
+      "name": "Tungabhadra Detergents Ltd",
+      "gstin": "36HKRPO3642J1ZG",
+      "state_code": "36",
+      "email": "accounts@tungabhadra-example.in",
+      "address": "34, Industrial Estate, Hyderabad",
+      "uses_einvoice": true,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-109",
+      "name": "Godavari Packaged Foods",
+      "gstin": "27TKXCC1421N1Z3",
+      "state_code": "27",
+      "email": "accounts@godavari-example.in",
+      "address": "141, Industrial Estate, Pune",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-110",
+      "name": "Krishna Dairy Products LLP",
+      "gstin": "33HKJCH1122P1ZT",
+      "state_code": "33",
+      "email": "accounts@krishna-example.in",
+      "address": "151, Industrial Estate, Chennai",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-111",
+      "name": "Hampi Paper Mills Pvt Ltd",
+      "gstin": "29EHDFL6318T1Z0",
+      "state_code": "29",
+      "email": "accounts@hampi-example.in",
+      "address": "168, Industrial Estate, Bengaluru",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-112",
+      "name": "Thamirabarani Soaps Ltd",
+      "gstin": "32RBXFZ5334M1ZU",
+      "state_code": "32",
+      "email": "accounts@thamirabarani-example.in",
+      "address": "16, Industrial Estate, Kochi",
+      "uses_einvoice": true,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-113",
+      "name": "Kodagu Plantations Pvt Ltd",
+      "gstin": "36EZLPK6155L1ZP",
+      "state_code": "36",
+      "email": "accounts@kodagu-example.in",
+      "address": "158, Industrial Estate, Hyderabad",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-114",
+      "name": "Bhavani Cleaning Solutions",
+      "gstin": "27AWPPU2331P1ZQ",
+      "state_code": "27",
+      "email": "accounts@bhavani-example.in",
+      "address": "120, Industrial Estate, Pune",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-115",
+      "name": "Sharavathi Foods LLP",
+      "gstin": "33MIDFK7465G1ZI",
+      "state_code": "33",
+      "email": "accounts@sharavathi-example.in",
+      "address": "136, Industrial Estate, Chennai",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 1.0
+    },
+    {
+      "code": "SUP-116",
+      "name": "Kaveri Valley Organics",
+      "gstin": "29JRXFJ9862L1ZT",
+      "state_code": "29",
+      "email": "accounts@kaveri-example.in",
+      "address": "43, Industrial Estate, Bengaluru",
+      "uses_einvoice": true,
+      "price_tolerance_pct": 2.0
+    },
+    {
+      "code": "SUP-117",
+      "name": "Pennar Personal Care Ltd",
+      "gstin": "32JFOFK6677G1ZF",
+      "state_code": "32",
+      "email": "accounts@pennar-example.in",
+      "address": "62, Industrial Estate, Kochi",
+      "uses_einvoice": false,
+      "price_tolerance_pct": 2.0
+    }
+  ],
+  "products": [
+    {
+      "sku": "SKU-1001",
+      "name": "Herbal Shampoo 180ml",
+      "hsn": "3305",
+      "gst_rate": 18,
+      "units_per_carton": 48,
+      "carton_weight_kg": 9.5,
+      "base_price": 450,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1002",
+      "name": "Anti-Dandruff Shampoo 340ml",
+      "hsn": "3305",
+      "gst_rate": 18,
+      "units_per_carton": 24,
+      "carton_weight_kg": 9.0,
+      "base_price": 620,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1003",
+      "name": "Coconut Hair Oil 200ml",
+      "hsn": "3305",
+      "gst_rate": 18,
+      "units_per_carton": 48,
+      "carton_weight_kg": 10.5,
+      "base_price": 510,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1101",
+      "name": "Neem Bath Soap 100g x4",
+      "hsn": "3401",
+      "gst_rate": 18,
+      "units_per_carton": 36,
+      "carton_weight_kg": 15.2,
+      "base_price": 780,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1102",
+      "name": "Glycerine Soap 75g",
+      "hsn": "3401",
+      "gst_rate": 18,
+      "units_per_carton": 144,
+      "carton_weight_kg": 11.4,
+      "base_price": 690,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1201",
+      "name": "Mint Toothpaste 150g",
+      "hsn": "3306",
+      "gst_rate": 18,
+      "units_per_carton": 72,
+      "carton_weight_kg": 11.8,
+      "base_price": 940,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-1301",
+      "name": "Detergent Powder 1kg",
+      "hsn": "3402",
+      "gst_rate": 18,
+      "units_per_carton": 20,
+      "carton_weight_kg": 20.6,
+      "base_price": 1150,
+      "requires_coa": false
+    },
+    {
+      "sku": "SKU-1302",
+      "name": "Dishwash Liquid 500ml",
+      "hsn": "3402",
+      "gst_rate": 18,
+      "units_per_carton": 30,
+      "carton_weight_kg": 16.0,
+      "base_price": 870,
+      "requires_coa": false
+    },
+    {
+      "sku": "SKU-1303",
+      "name": "Floor Cleaner 1L",
+      "hsn": "3402",
+      "gst_rate": 18,
+      "units_per_carton": 12,
+      "carton_weight_kg": 13.1,
+      "base_price": 640,
+      "requires_coa": false
+    },
+    {
+      "sku": "SKU-2001",
+      "name": "Glucose Biscuits 200g",
+      "hsn": "1905",
+      "gst_rate": 18,
+      "units_per_carton": 60,
+      "carton_weight_kg": 12.6,
+      "base_price": 600,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2002",
+      "name": "Cream Biscuits 120g",
+      "hsn": "1905",
+      "gst_rate": 18,
+      "units_per_carton": 96,
+      "carton_weight_kg": 12.0,
+      "base_price": 860,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2101",
+      "name": "Instant Noodles 70g",
+      "hsn": "1902",
+      "gst_rate": 18,
+      "units_per_carton": 96,
+      "carton_weight_kg": 7.2,
+      "base_price": 1050,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2201",
+      "name": "Assam Tea 500g",
+      "hsn": "0902",
+      "gst_rate": 5,
+      "units_per_carton": 24,
+      "carton_weight_kg": 12.8,
+      "base_price": 3100,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2301",
+      "name": "Sunflower Oil 1L",
+      "hsn": "1512",
+      "gst_rate": 5,
+      "units_per_carton": 12,
+      "carton_weight_kg": 11.5,
+      "base_price": 1680,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2401",
+      "name": "Tomato Ketchup 500g",
+      "hsn": "2103",
+      "gst_rate": 12,
+      "units_per_carton": 24,
+      "carton_weight_kg": 13.4,
+      "base_price": 1260,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-2501",
+      "name": "Pure Ghee 500ml",
+      "hsn": "0405",
+      "gst_rate": 12,
+      "units_per_carton": 20,
+      "carton_weight_kg": 10.8,
+      "base_price": 5400,
+      "requires_coa": true
+    },
+    {
+      "sku": "SKU-3001",
+      "name": "Paper Napkins 100s",
+      "hsn": "4818",
+      "gst_rate": 12,
+      "units_per_carton": 48,
+      "carton_weight_kg": 8.4,
+      "base_price": 720,
+      "requires_coa": false
+    },
+    {
+      "sku": "SKU-3002",
+      "name": "Aluminium Foil 9m",
+      "hsn": "7607",
+      "gst_rate": 18,
+      "units_per_carton": 50,
+      "carton_weight_kg": 6.3,
+      "base_price": 1450,
+      "requires_coa": false
+    }
+  ],
+  "purchase_orders": [
+    {
+      "po_number": "PO-40001",
+      "supplier_code": "SUP-106",
+      "order_date": "2026-09-01",
+      "lines": [
+        {
+          "sku": "SKU-2301",
+          "qty_cartons": 250,
+          "price_per_carton": 1680.0
+        },
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 250,
+          "price_per_carton": 3100.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40002",
+      "supplier_code": "SUP-104",
+      "order_date": "2026-09-07",
+      "lines": [
+        {
+          "sku": "SKU-2301",
+          "qty_cartons": 200,
+          "price_per_carton": 1680.0
+        },
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 100,
+          "price_per_carton": 3100.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40003",
+      "supplier_code": "SUP-104",
+      "order_date": "2026-09-04",
+      "lines": [
+        {
+          "sku": "SKU-3001",
+          "qty_cartons": 200,
+          "price_per_carton": 720.0
+        },
+        {
+          "sku": "SKU-2401",
+          "qty_cartons": 1000,
+          "price_per_carton": 1260.0
+        },
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 1000,
+          "price_per_carton": 5400.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40004",
+      "supplier_code": "SUP-102",
+      "order_date": "2026-09-04",
+      "lines": [
+        {
+          "sku": "SKU-3002",
+          "qty_cartons": 1000,
+          "price_per_carton": 1450.0
+        },
+        {
+          "sku": "SKU-1002",
+          "qty_cartons": 120,
+          "price_per_carton": 620.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40005",
+      "supplier_code": "SUP-116",
+      "order_date": "2026-09-09",
+      "lines": [
+        {
+          "sku": "SKU-1001",
+          "qty_cartons": 80,
+          "price_per_carton": 450.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40006",
+      "supplier_code": "SUP-108",
+      "order_date": "2026-09-09",
+      "lines": [
+        {
+          "sku": "SKU-1001",
+          "qty_cartons": 120,
+          "price_per_carton": 450.0
+        },
+        {
+          "sku": "SKU-1201",
+          "qty_cartons": 100,
+          "price_per_carton": 940.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40007",
+      "supplier_code": "SUP-113",
+      "order_date": "2026-09-05",
+      "lines": [
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 50,
+          "price_per_carton": 5400.0
+        },
+        {
+          "sku": "SKU-3001",
+          "qty_cartons": 1000,
+          "price_per_carton": 720.0
+        },
+        {
+          "sku": "SKU-2401",
+          "qty_cartons": 120,
+          "price_per_carton": 1260.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40008",
+      "supplier_code": "SUP-110",
+      "order_date": "2026-09-13",
+      "lines": [
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 100,
+          "price_per_carton": 5400.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40009",
+      "supplier_code": "SUP-113",
+      "order_date": "2026-09-12",
+      "lines": [
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 1000,
+          "price_per_carton": 3100.0
+        }
+      ]
+    },
+    {
+      "po_number": "PO-40010",
+      "supplier_code": "SUP-108",
+      "order_date": "2026-09-21",
+      "lines": [
+        {
+          "sku": "SKU-1101",
+          "qty_cartons": 100,
+          "price_per_carton": 780.0
+        }
+      ]
+    }
+  ],
+  "goods_receipts": [
+    {
+      "grn_number": "GRN-70001",
+      "po_number": "PO-40001",
+      "received_date": "2026-09-09",
+      "vehicle_no": "KA83 CV 2964",
+      "lines": [
+        {
+          "sku": "SKU-2301",
+          "qty_cartons": 238,
+          "batch_no": "B35H282"
+        },
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 250,
+          "batch_no": "B91F188"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70002",
+      "po_number": "PO-40002",
+      "received_date": "2026-09-11",
+      "vehicle_no": "KA28 JQ 4940",
+      "lines": [
+        {
+          "sku": "SKU-2301",
+          "qty_cartons": 200,
+          "batch_no": "B43J529"
+        },
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 100,
+          "batch_no": "B17F569"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70003",
+      "po_number": "PO-40003",
+      "received_date": "2026-09-12",
+      "vehicle_no": "KL04 YC 8262",
+      "lines": [
+        {
+          "sku": "SKU-3001",
+          "qty_cartons": 200,
+          "batch_no": "B88J720"
+        },
+        {
+          "sku": "SKU-2401",
+          "qty_cartons": 1000,
+          "batch_no": "B35E563"
+        },
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 1000,
+          "batch_no": "B78H619"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70004",
+      "po_number": "PO-40004",
+      "received_date": "2026-09-11",
+      "vehicle_no": "TN86 HF 8070",
+      "lines": [
+        {
+          "sku": "SKU-3002",
+          "qty_cartons": 1000,
+          "batch_no": "B61F531"
+        },
+        {
+          "sku": "SKU-1002",
+          "qty_cartons": 120,
+          "batch_no": "B55F194"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70005",
+      "po_number": "PO-40005",
+      "received_date": "2026-09-15",
+      "vehicle_no": "KL66 SP 6358",
+      "lines": [
+        {
+          "sku": "SKU-1001",
+          "qty_cartons": 80,
+          "batch_no": "B45A918"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70006",
+      "po_number": "PO-40006",
+      "received_date": "2026-09-12",
+      "vehicle_no": "TN40 UJ 9701",
+      "lines": [
+        {
+          "sku": "SKU-1001",
+          "qty_cartons": 120,
+          "batch_no": "B47H612"
+        },
+        {
+          "sku": "SKU-1201",
+          "qty_cartons": 100,
+          "batch_no": "B44F922"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70007",
+      "po_number": "PO-40007",
+      "received_date": "2026-09-08",
+      "vehicle_no": "KL95 IN 3674",
+      "lines": [
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 50,
+          "batch_no": "B20G991"
+        },
+        {
+          "sku": "SKU-3001",
+          "qty_cartons": 1000,
+          "batch_no": "B95E713"
+        },
+        {
+          "sku": "SKU-2401",
+          "qty_cartons": 120,
+          "batch_no": "B98E146"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70008",
+      "po_number": "PO-40008",
+      "received_date": "2026-09-17",
+      "vehicle_no": "KA81 HC 9670",
+      "lines": [
+        {
+          "sku": "SKU-2501",
+          "qty_cartons": 100,
+          "batch_no": "B94K498"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70009",
+      "po_number": "PO-40009",
+      "received_date": "2026-09-16",
+      "vehicle_no": "KA72 BU 1308",
+      "lines": [
+        {
+          "sku": "SKU-2201",
+          "qty_cartons": 1000,
+          "batch_no": "B97D601"
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-70010",
+      "po_number": "PO-40010",
+      "received_date": "2026-09-25",
+      "vehicle_no": "KL19 KI 5987",
+      "lines": [
+        {
+          "sku": "SKU-1101",
+          "qty_cartons": 100,
+          "batch_no": "B11H162"
+        }
+      ]
+    }
+  ],
+  "past_resolutions": [
+    {
+      "supplier_gstin": "36HKRPO3642J1ZG",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Tungabhadra Detergents Ltd billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 3150,
+      "days_ago": 48
+    },
+    {
+      "supplier_gstin": "36COEPR7564R1ZU",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Malabar Consumer Goods Ltd billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 8900,
+      "days_ago": 78
+    },
+    {
+      "supplier_gstin": "27UMYCJ2170J1ZQ",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Deccan Hygiene Industries billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 3150,
+      "days_ago": 79
+    },
+    {
+      "supplier_gstin": "33MIDFK7465G1ZI",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Sharavathi Foods LLP billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 12400,
+      "days_ago": 50
+    },
+    {
+      "supplier_gstin": "36EZLPK6155L1ZP",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Kodagu Plantations Pvt Ltd billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 5250,
+      "days_ago": 49
+    },
+    {
+      "supplier_gstin": "32BCHFV0735V1ZF",
+      "issue_codes": [
+        "SHORT_SHIPMENT",
+        "LR_QTY_MISMATCH"
+      ],
+      "summary": "Vaigai Beverages Pvt Ltd billed full quantity; transporter and warehouse both recorded 5% fewer cartons. Loss before loading.",
+      "resolution": "pay_adjusted: paid for received quantity; supplier issued a debit note.",
+      "debit_note_amount": 8900,
+      "days_ago": 99
+    },
+    {
+      "supplier_gstin": "33HKJCH1122P1ZT",
+      "issue_codes": [
+        "PRICE_MISMATCH"
+      ],
+      "summary": "Krishna Dairy Products LLP invoiced above the PO price after a list-price change not agreed with purchasing.",
+      "resolution": "pay_adjusted: paid at PO price; purchasing informed supplier.",
+      "debit_note_amount": 6600,
+      "days_ago": 66
+    },
+    {
+      "supplier_gstin": "32BCHFV0735V1ZF",
+      "issue_codes": [
+        "PRICE_MISMATCH"
+      ],
+      "summary": "Vaigai Beverages Pvt Ltd invoiced above the PO price after a list-price change not agreed with purchasing.",
+      "resolution": "pay_adjusted: paid at PO price; purchasing informed supplier.",
+      "debit_note_amount": 6600,
+      "days_ago": 101
+    },
+    {
+      "supplier_gstin": "29EHDFL6318T1Z0",
+      "issue_codes": [
+        "PRICE_MISMATCH"
+      ],
+      "summary": "Hampi Paper Mills Pvt Ltd invoiced above the PO price after a list-price change not agreed with purchasing.",
+      "resolution": "pay_adjusted: paid at PO price; purchasing informed supplier.",
+      "debit_note_amount": 1800,
+      "days_ago": 64
+    },
+    {
+      "supplier_gstin": "29KGOPS1269S1ZV",
+      "issue_codes": [
+        "PRICE_MISMATCH"
+      ],
+      "summary": "Nilgiri Home Products LLP invoiced above the PO price after a list-price change not agreed with purchasing.",
+      "resolution": "pay_adjusted: paid at PO price; purchasing informed supplier.",
+      "debit_note_amount": 1800,
+      "days_ago": 60
+    }
+  ]
+}

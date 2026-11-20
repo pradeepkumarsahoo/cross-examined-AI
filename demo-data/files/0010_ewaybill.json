@@ -1,0 +1,23 @@
+{
+  "ewbNo": 394144262876,
+  "ewayBillDate": "24/09/2026 10:15:00",
+  "validUpto": "27/09/2026 23:59:00",
+  "fromGstin": "36HKRPO3642J1ZG",
+  "toGstin": "33VTFFP3002I1Z2",
+  "docNo": "SI/26-27/14044",
+  "docType": "INV",
+  "totInvValue": 92040.0,
+  "itemList": [
+    {
+      "hsnCode": "3401",
+      "quantity": 100,
+      "qtyUnit": "CTN",
+      "taxableAmount": 78000.0
+    }
+  ],
+  "VehiclListDetails": [
+    {
+      "vehicleNo": "KL19KI5987"
+    }
+  ]
+}

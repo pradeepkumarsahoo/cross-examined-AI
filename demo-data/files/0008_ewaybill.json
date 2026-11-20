@@ -1,0 +1,23 @@
+{
+  "ewbNo": 459764977801,
+  "ewayBillDate": "15/09/2026 10:15:00",
+  "validUpto": "18/09/2026 23:59:00",
+  "fromGstin": "33HKJCH1122P1ZT",
+  "toGstin": "33VTFFP3002I1Z2",
+  "docNo": "SI/26-27/65774",
+  "docType": "INV",
+  "totInvValue": 604800.0,
+  "itemList": [
+    {
+      "hsnCode": "0405",
+      "quantity": 100,
+      "qtyUnit": "CTN",
+      "taxableAmount": 540000.0
+    }
+  ],
+  "VehiclListDetails": [
+    {
+      "vehicleNo": "KA81HC9670"
+    }
+  ]
+}

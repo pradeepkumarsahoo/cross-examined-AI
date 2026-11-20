@@ -1,0 +1,166 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+/* The theme lives on <html data-theme="dark|light">; `dark:` follows it, not the OS. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ------------------------------------------------------------------ tokens */
+/* A formal palette: navy ink, cool grey surfaces, one blue accent. Green, amber and red appear only as status. */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --page: #f3f5f9;
+  --ink: #0f1b2d;
+  --ink-2: #3d4b61;
+  --ink-3: #66748a;
+  --surface: #ffffff;
+  --surface-2: #ffffff;
+  --sunk: #f1f4f9;
+  --line: #dde3ec;
+  --line-strong: #c4cddb;
+  --grid-line: transparent;
+  --shadow-card: 0 1px 2px rgba(15, 27, 45, 0.05), 0 4px 14px -8px rgba(15, 27, 45, 0.12);
+  --aurora-opacity: 0;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0b1423;
+  --ink: #eef2f8;
+  --ink-2: #b8c3d4;
+  --ink-3: #8795ab;
+  --surface: #111e32;
+  --surface-2: #16263d;
+  --sunk: #0e192b;
+  --line: #22324b;
+  --line-strong: #324764;
+  --grid-line: transparent;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --aurora-opacity: 0;
+}
+
+@theme inline {
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "Cascadia Code", monospace;
+  --font-serif: var(--font-sans);
+
+  --color-page: var(--page);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-sunk: var(--sunk);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+}
+
+/* ------------------------------------------------------------------ base */
+html,
+body {
+  background: var(--page);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: rgba(29, 78, 216, 0.25);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------ utilities */
+@utility glass {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-card);
+}
+
+/* Kept for the components that ask for a ring: now a plain hairline. */
+@utility gradient-border {
+  position: relative;
+}
+
+/* Highlighted words in titles: solid accent colour instead of a gradient. */
+@utility text-gradient {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+[data-theme="dark"] .text-gradient {
+  color: #7fb0ff;
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* ------------------------------------------------------------------ small motion pieces */
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--sunk) 25%, var(--line) 50%, var(--sunk) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+  border-radius: 12px;
+}
+
+@keyframes travel {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  to {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+.travel-dot {
+  animation: travel 2.4s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .travel-dot,
+  .spin-slow,
+  .skeleton {
+    animation: none !important;
+  }
+}

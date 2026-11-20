@@ -1,0 +1,3 @@
+git clone git@github.com:mayank953/crossexam-project.git cross-examined-AI
+cd cross-examined-AI
+git branch -a
